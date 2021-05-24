@@ -8,7 +8,7 @@ Toolkit to build Git push workflows with Go
 ## Install
 
 ```bash
-go get github.com/sosedoff/gitkit
+go get github.com/McMackety/gitkit
 ```
 
 ## Smart HTTP Server
@@ -19,7 +19,7 @@ package main
 import (
   "log"
   "net/http"
-  "github.com/sosedoff/gitkit"
+  "github.com/McMackety/gitkit"
 )
 
 func main() {
@@ -101,7 +101,7 @@ import (
   "log"
   "net/http"
 
-  "github.com/sosedoff/gitkit"
+  "github.com/McMackety/gitkit"
 )
 
 func main() {
@@ -164,7 +164,7 @@ package main
 
 import (
   "log"
-  "github.com/sosedoff/gitkit"
+  "github.com/McMackety/gitkit"
 )
 
 // User-defined key lookup function. You can make a call to a database or
@@ -259,7 +259,7 @@ import (
   "os"
   "fmt"
 
-  "github.com/sosedoff/gitkit"
+  "github.com/McMackety/gitkit"
 )
 
 // HookInfo contains information about branch, before and after revisions.
